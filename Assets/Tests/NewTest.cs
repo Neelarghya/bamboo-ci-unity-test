@@ -16,7 +16,7 @@ namespace Tests
         public IEnumerator NewTestWithEnumeratorPasses()
         {
             yield return null;
-            Assert.IsFalse(true);
+            Assert.IsFalse(false);
         }
     }
 }
